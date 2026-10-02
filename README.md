@@ -15,8 +15,7 @@ I'm interested in Big Data, Machine Learning & blockchain
 </p>
 
 ### 🤝 Connect with me:
-[![Junot's linkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/antoine-junot/)
-
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/0x3ce)
 
 ## 💼 Technical Skills
 
@@ -30,11 +29,6 @@ I'm interested in Big Data, Machine Learning & blockchain
 | - OpenCV | Flask |
 | - Neo4j | Angular |
 
-
-
-[![Junot's GitHub stats](https://github-readme-stats.vercel.app/api?username=Junot974&count_private=true&show_icons=true)](https://github.com/Junot974)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Junot974&langs_count=10)](https://github.com/Junot974)
 
 - 974 🇷🇪
 
