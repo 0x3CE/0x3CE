@@ -4,7 +4,6 @@
 
 <p>
   <a href="https://buymeacoffee.com/0x3ce"><img src="https://img.shields.io/badge/Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" alt="Buy Me a Coffee"/></a>
-  <img src="https://komarev.com/ghpvc/?username=0x3CE&style=for-the-badge&color=F5A623&label=PROFILE+VIEWS" alt="Profile views"/>
 </p>
 
 </div>
