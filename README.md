@@ -17,6 +17,8 @@ class DataEngineer:
     based_in   = "France 🇫🇷  ·  roots in 974 🇷🇪"
 
     day_to_day = ["SQL / MariaDB", "ETL & automation", "Power BI · DAX", "Python"]
+    shipped    = ["Glyph — edit text inside PDFs, for real",
+                  "Kapsul — client-side encrypted budgeting"]
     building   = ["MCP servers that plug LLMs into business data",
                   "an LLM that manages a paper-trading portfolio",
                   "a market dashboard to build investment theses"]
@@ -27,28 +29,39 @@ class DataEngineer:
         return "Clean data first. Fancy models second."
 ```
 
+## 🚀 Shipped
+
+| | Project | Stack |
+|:-:|---|---|
+| 📄 | **[Glyph](https://www.glyph-pdf.com)** — edits text *inside* a PDF instead of pasting a white box over it. Real redaction, fake-redaction checker, signatures, find & replace. Every PDF is parsed in a sandboxed, resource-limited subprocess and kept in memory only. Open source, FR/EN, in production. [Source](https://github.com/0x3CE/Glyph) | Python · FastAPI · PyMuPDF · Next.js · Docker |
+| 🔐 | **[Kapsul](https://kapsul-ebon.vercel.app/app)** — envelope budgeting & net-worth tracking, encrypted client-side (AES-256-GCM): your data never leaves your device in clear. | Next.js · TypeScript |
+| 📈 | **[Stock Dashboard](https://frontend-stock-dashboard.onrender.com)** — market tracking and investment-thesis building from Yahoo Finance, FRED & World Bank data. | React · Financial APIs |
+
 ## 🔭 What I'm building
 
 | | Project | Stack |
 |:-:|---|---|
-| 🔌 | **AI × Data bridge** — a Python MCP server that lets LLM agents query business data safely: read-only views, per-tool scopes, parameterized queries, audit logs. | Python · MCP · MariaDB |
+| 🔌 | **AI × Data bridge** *(day job)* — a Python MCP server that lets LLM agents query business data safely: read-only views, per-tool scopes, parameterized queries, audit logs. | Python · MCP · MariaDB |
 | 🤖 | **LLM Oracle** — an experiment where an LLM manages a paper-trading portfolio. I write the core logic myself; AI only does the scaffolding. | Python · LLM APIs |
-| 📈 | **Stock Dashboard** — tracks markets and helps build investment theses from Yahoo Finance, FRED & World Bank data. | React · Financial APIs |
-| 📊 | **Analytics engineering** — Power BI semantic models: customer segmentation (churn, reactivation, growth), YoY revenue & margin, stock rotation. | Power BI · DAX · SQL |
+| 📊 | **Analytics engineering** *(day job)* — Power BI semantic models: customer segmentation (churn, reactivation, growth), YoY revenue & margin, stock rotation. | Power BI · DAX · SQL |
 
 ## 🛠️ Tech Stack
 
-**Data & Engineering**
+**Data Engineering**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Neo4j](https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logo=neo4j&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-F2C811?style=for-the-badge&logoColor=black)
 ![Talend](https://img.shields.io/badge/Talend-FF6D70?style=for-the-badge&logo=talend&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logoColor=black)
+
+**Backend & Infra**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white)
 
 **Machine Learning & AI**
 
@@ -56,17 +69,14 @@ class DataEngineer:
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
-![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=claude&logoColor=white)
 
 **Web**
 
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+🌱 **Learning next:** dbt · Dagster · Apache Spark · AWS
 
 ## 🧠 Off the clock
 
